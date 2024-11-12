@@ -20,12 +20,12 @@ This project is a PowerShell script that backs up all repositories from a GitHub
 
 1. **Clone this repository:**
     ```bash
-    git clone https://github.com/yourusername/github-org-backup-script.git
+    git clone https://github.com/guigiovine/github-org-backup-script.git
     ```
 
 2. **Configure the necessary variables:**
 
-   - Open the `backup_github_repos.ps1` file and replace the following variables:
+   - Open the `github-backup-config.ps1` file and replace the following variables:
      - `$orgName`: The name of your GitHub organization.
      - `$username`: Your GitHub username.
      - `$token`: Your GitHub personal access token.
@@ -36,6 +36,6 @@ This project is a PowerShell script that backs up all repositories from a GitHub
 
 3. **Run the script:**
 
-   To start the backup, run the `backup_github_repos.ps1` file in PowerShell:
+   To start the backup, run the `github-backup-main.ps1` file in PowerShell:
    ```powershell
-   .\backup_github_repos.ps1
+   .\github-backup-main.ps1
