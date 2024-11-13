@@ -1,5 +1,10 @@
 # PowerShell GitHub Backup Script
 
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+
 This project is a PowerShell script that backs up all repositories from a GitHub organization to a local directory, allowing you to maintain a complete backup in case of disaster or data loss on GitHub.
 ![](https://github.com/guigiovine/pshell-github-backup/blob/main/README.gif)
 
