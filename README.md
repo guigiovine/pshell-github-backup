@@ -14,7 +14,6 @@ This project is a PowerShell script that backs up all repositories from a GitHub
 - [PowerShell](https://docs.microsoft.com/en-us/powershell/)
 - [Git](https://git-scm.com/) installed and accessible from PowerShell.
 - GitHub personal access token with read access to the organization's repositories.
-- SMTP server to send email notifications.
 
 ## Setup
 
@@ -30,9 +29,8 @@ This project is a PowerShell script that backs up all repositories from a GitHub
      - `$username`: Your GitHub username.
      - `$token`: Your GitHub personal access token.
      - `$backupDir`: Local directory where the repositories will be stored.
-     - `$emailTo`: Email address to receive notifications.
-     - `$emailFrom`: Sender's email address.
-     - `$smtpServer`: SMTP server for email sending.
+     - `$maxRepos`: Set to 0 to fetch all repositories.
+
 
 3. **Run the script:**
 

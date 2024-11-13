@@ -1,14 +1,10 @@
 # github-backup-config.ps1 - Configuration Parameters
 
 # GitHub organization and authentication
-$orgName = "ORG_NAME"         # Replace with your GitHub organization name
-$username = "USR_NAME"             # Your GitHub username
-$token = "TOKEN"                   # Your personal GitHub access token
+$orgName = "organization"         # Replace with your GitHub organization name
+$username = "username"             # Your GitHub username
+$token = "token"                   # Your personal GitHub access token
+$maxRepos = 0  # Set to 0 to fetch all repositories
 
 # Backup directory
-$backupDir = "C:\backups"  # Directory to save backups
-
-# Email notification settings
-$emailTo = "to@domain.com" # Email address to receive notifications
-$emailFrom = "from@domain.com" # Email sender address
-$smtpServer = "smtp.server.com" # SMTP server for sending emails
+$backupDir = ".\github-backup\$orgName"  # Directory to save backups
