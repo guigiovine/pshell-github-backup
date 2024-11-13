@@ -11,16 +11,15 @@ This project provides a PowerShell script to back up all repositories from a Git
 
 ## Features
 
-- Full backup of all repositories (including branches, tags, and references).
+- Full mirror backup of all repositories (including branches, tags, and references).
 - Pagination support for organizations with a large number of repositories.
 - Error handling: detects cloning failures and removes partially cloned repositories.
-- Email notification if one or more repositories fail to clone.
 
 ## Requirements
 
 - [PowerShell](https://docs.microsoft.com/en-us/powershell/)
 - [Git](https://git-scm.com/) installed and accessible from PowerShell.
-- GitHub personal access token with read access to the organization's repositories.
+- [GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) with read access to the organization's repositories.
 
 ## Setup
 
