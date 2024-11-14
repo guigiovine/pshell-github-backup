@@ -8,3 +8,8 @@ $maxRepos = 0  # Set to 0 to fetch all repositories
 
 # Backup directory
 $backupDir = ".\github-backup\$orgName"  # Directory to save backups
+
+# Configuration for the scheduled task
+$taskName = "pshell-github-backup"
+$taskDescription = "Daily backup of GitHub organization repositories"
+$taskTriggerTime = "03:00AM"  # Set the time for the daily run
