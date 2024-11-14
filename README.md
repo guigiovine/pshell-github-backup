@@ -10,9 +10,9 @@ This project provides a PowerShell script to back up all repositories from a Git
 
 ## Features
 
-- Full mirror backup of all repositories (including branches, tags, and references).
-- Pagination support for organizations with a large number of repositories.
-- Error handling: detects cloning failures and removes partially cloned repositories.
+- 📦Full mirror backup of all repositories (including branches, tags, and references).
+- 📑Pagination support for organizations with a large number of repositories.
+- ⚠️Error handling: detects cloning failures and removes partially cloned repositories.
 
 ## Requirements
 
