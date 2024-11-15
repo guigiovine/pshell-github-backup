@@ -46,7 +46,7 @@ do {
 
 foreach ($repo in $repos) {
     $repoName = $repo.name
-    $cloneUrl = $repo.clone_url
+    $cloneUrl = "https://$($username):$($token)@github.com/$($orgName)/$($repo.name).git"
     $repoBackupPath = Join-Path -Path $backupDir -ChildPath "$repoName.git"
 
     if (Test-Path -Path $repoBackupPath) {
