@@ -41,7 +41,7 @@ This project provides a PowerShell script to back up all repositories from a Git
    ```powershell
    .\github-backup-main.ps1
 
-## Donation
-If you like this, please consider making a donation!
+## Show your support
+If you like this, please consider making a donation! 
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/ggiovine)
