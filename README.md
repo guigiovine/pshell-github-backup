@@ -41,7 +41,14 @@ This project provides a PowerShell script to back up all repositories from a Git
    ```powershell
    .\github-backup-main.ps1
 
+## Contributing
+Feel free to submit issues or contribute enhancements to the project.
+
 ## Show your support
 If you like this, please consider making a donation! 
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/ggiovine)
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
